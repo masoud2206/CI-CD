@@ -1,13 +1,15 @@
+import pytest
+
 def sayhi(name):
-    print(f"HI {name}")
+    return(f"HI {name}")
 
 def admin(username):
     if username == "admin":
-        print("Welcome Admin")
+        return("Welcome Admin")
 
 def username(password):
     if password == 1234:
-        print("Logged In Successfully")
+        return("Logged In Successfully")
 
 
 def test_sayhi():
